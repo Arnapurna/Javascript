@@ -12,10 +12,10 @@
 
 let a = 20;
 let b = 10;
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
-a=2;b=3;
-console.log(a**b);
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+a = 2; b = 3;
+console.log(a ** b);

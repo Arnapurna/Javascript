@@ -8,8 +8,8 @@
 //    Logical AND (&&)  (a && b)            // Returns a if it can be converted to false; otherwise, returns b. Thus, when used with Boolean values, && returns true if both operands are true; otherwise, returns false.
 //    Logical OR (||)   (a || b)            // Returns a if it can be converted to true; otherwise, returns b. Thus, when used with Boolean values, || returns true if either operand is true; if both are false, returns false.
 //    Logical NOT (!)   (~a)                // Returns false if its single operand that can be converted to true; otherwise, returns true
-//)
-
+//)s
+s
 console.log(true && true);
 console.log(true && false);
 console.log(false && true);

@@ -13,16 +13,16 @@
 //    Zero-fill right shift (a>>>b)         // Shifts a in binary representation b bits to the right, discarding bits shifted off, and shifting in zeros from the left.
 //)
 
-let a= 15;
-let b=9;
+let a = 15;
+let b = 9;
 
-console.log(a&b);               // 1111 & 1001 = 1001
-console.log(a|b);               // 1111 | 1001 = 1111
-console.log(a^b);               // 1111 ^ 1001 = 0110
+console.log(a & b);               // 1111 & 1001 = 1001
+console.log(a | b);               // 1111 | 1001 = 1111
+console.log(a ^ b);               // 1111 ^ 1001 = 0110
 console.log(~a);                // ~ 0000 0000 … 0000 1111 = 1111 1111 … 1111 0000
 console.log(~b);                // ~ 0000 0000 … 0000 1001 = 1111 1111 … 1111 0110
-a=9;b=2;
-console.log(a<<b);              // 1001 << 2 = 100100
-console.log(a>>b);              // 1001 >> 2 = 10
-console.log(-9>>2);
-console.log(a>>>b);             // 1001 >>> 2 = 10
+a = 9; b = 2;
+console.log(a << b);              // 1001 << 2 = 100100
+console.log(a >> b);              // 1001 >> 2 = 10
+console.log(-9 >> 2);
+console.log(a >>> b);             // 1001 >>> 2 = 10
